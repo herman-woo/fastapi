@@ -3,6 +3,7 @@
 2. Create a Virtual Python Environment
  - python -m venv .venv
  - source .venv/bin/activate
+ - - .\.venv\Scripts\activate
 3. Install dependencies 
  - pip install "fastapi[standard]" sqlmodel alembic
  - pip install -r requirements.txt
